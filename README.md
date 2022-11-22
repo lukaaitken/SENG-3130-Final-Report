@@ -4,13 +4,14 @@
  
 ### 1. Business Requirements
 #### 1.1 Background
-<p>During the covid pandemic, there was a decline in the use of volunteer aids in the client's
+During the covid pandemic, there was a decline in the use of volunteer aids in the client's
 community. This is due partially to the fact that there were a lot of customers lost, as well as a
 huge drop off of volunteers during the pandemic. On top of all this, the onboarding system that
 we currently have is taking too long with wait times upwards of two weeks to complete a
-background check through the police.</p>
-#### 1.2. Business Opportunity
-<p>For this volunteer management system, the business opportunities that can come out of this
+background check through the police.
+
+#### 1.2 Business Opportunity
+For this volunteer management system, the business opportunities that can come out of this
 project is that more city activities will have more volunteers, which can boost the city’s
 popularity. It can help boost the number of volunteers being involved with the city, performing
 tasks that can benefit the stakeholders. Currently, the limitations of the previous management
@@ -19,4 +20,4 @@ volunteers will take on the request. Taking longer to post new requests, will ca
 volunteers due to the late posting time. This new volunteer management system will help
 reduce the possibility of the volunteer shortage to two times per year. It will also be able to
 predict and deduce if there will not be enough volunteers by notifying management if cases
-don’t have volunteers by a one-week notice.</p>
+don’t have volunteers by a one-week notice.
