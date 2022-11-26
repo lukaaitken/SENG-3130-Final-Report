@@ -1,10 +1,3 @@
-{"tab-group"}:
-    {"tab1"}:
-        # content 1
-    {"tab2"}:
-        # content 2
-    {"tabs3"}:
-        # content 3
 # SENG 3130 - Final Report - Volunteer Management System
 
 ## Vision and Scope Document
@@ -19,9 +12,15 @@ For this volunteer management system, the business opportunities that can come o
 #### 1.3. Business Objectives and Success Criteria
 The volunteer management system's business objective is to create a system that is easily accessible to all the stakeholders, such as clients, volunteers, and clients with different tasks and needs. This system will help speed up the process of getting more volunteer requests, which will make volunteer assignments quicker and reduce the possibility of volunteer shortages. Volunteers can check to see if there are openings through the system rather than going in person. The volunteer management system should be able to track 60% of senior cases and support up to 85% of cases. It should be able to handle approximately 6000 to 9000 cases with a low bound of 5100 and an upper bound of 7650 cases. The system should also help reduce the last-minute volunteer shortages to two times per year by getting volunteer support within three days.
 
+The success metric for the volunteer management system is that the system can forecast the needed cases ahead of time by one week in advance. This successfully meets the business objective by limiting volunteer shortages to two times per year. It also reduces the volunteer assignment time to 30% which allows clients/senior people to get volunteer support within three days and will limit limbo time for clients waiting for help. With the increase of volunteers being able to apply quicker with the new background check system that is in development, it will help increase beneficial activities that can decrease the crime rate in the city. This will also increase business transactions in the downtown area and local shops by 10%. This could lead to possible sponsors in the area with different promotions to volunteers as an incentive.
+
 #### 1.4. Customer or Market Needs
+The clients are needing help with day-to-day routines. or they are just looking for someone to hang out with. There has been a steady decrease in volunteering to aid the clients in recent years and we are trying to fix that gap by building this management software. We are currently seeing that due to the extended wait times for people to volunteer some of the clients go without aid for quite a while. Although we are not directly involved in the police checks we are aware that the government is building a system to streamline this process which will aid us in the long run. We will be working closely with the downtown area and businesses to develop an endorsement plan to get people to sign up through a rewards system. This will allow us to pick up new volunteers quickly and effectively.
 
 #### 1.5. Business Risks
+RI-1: Too few employees managing the management system, which can cause stress on the employees as well as make the volunteer management system vulnerable to glitches and hacks. (Impact = 6)
+RI-2: The clients may not use or own an electronic device, reducing the number of volunteer cases in the city. (Impact = 8)
+RI-3: Overloading of cases on the volunteer management system could cause many volunteer cases to be missed, lowering the use of the management system. (Impact = 9)
 
 ### 2. Vision of the Solution
 
