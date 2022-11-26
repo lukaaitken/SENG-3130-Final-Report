@@ -18,7 +18,7 @@ The success metric for the volunteer management system is that the system can fo
 The clients are needing help with day-to-day routines. or they are just looking for someone to hang out with. There has been a steady decrease in volunteering to aid the clients in recent years and we are trying to fix that gap by building this management software. We are currently seeing that due to the extended wait times for people to volunteer some of the clients go without aid for quite a while. Although we are not directly involved in the police checks we are aware that the government is building a system to streamline this process which will aid us in the long run. We will be working closely with the downtown area and businesses to develop an endorsement plan to get people to sign up through a rewards system. This will allow us to pick up new volunteers quickly and effectively.
 
 #### 1.5. Business Risks
-RI-1: Too few employees managing the management system, which can cause stress on the employees as well as make the volunteer management system vulnerable to glitches and hacks. (Impact = 6)
+RI-1: Too few employees managing the management system, which can cause stress on the employees as well as make the volunteer management system vulnerable to glitches and hacks. (Impact = 6)</br>
 RI-2: The clients may not use or own an electronic device, reducing the number of volunteer cases in the city. (Impact = 8)
 RI-3: Overloading of cases on the volunteer management system could cause many volunteer cases to be missed, lowering the use of the management system. (Impact = 9)
 
