@@ -1,5 +1,4 @@
 # SENG 3130 - Final Report - Volunteer Management System
-Main Topic
 
 ## Vision and Scope Document
  
