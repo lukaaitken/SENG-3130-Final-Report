@@ -25,8 +25,17 @@ RI-3: Overloading of cases on the volunteer management system could cause many v
 ### 2. Vision of the Solution
 
 #### 2.1. Vision Statement
+**For** customers and volunteers **who** require assistance with daily tasks or want to help the community, **the** Volunteer Management system is an online database system **that** accepts both volunteer requests and allows volunteers to sign up to participate and help the community. **Unlike** going in person, emailing, or calling to request, customers and volunteers who use the Volunteer Management system do not have to go in person or use phones and email to request help, **which** will save time for both customers and volunteers when applying for either request or volunteering positions.
 
 #### 2.2. Major Features
+F.E-1: Registration system for clients and volunteers to keep information about personal data. </br>
+F.E-2: Background Check system that checks the credentials of users to see if any users have criminal records. </br>
+F.E-3: Help request system for the client to request help. </br>
+F.E-4: Subautomated system that connects the management system with the background check system. </br>
+F.E-5: Predictive management system that tracks cases for 7 days from the current date. </br>
+F.E-6: Assignment system to assign the volunteer with the help requests. </br>
+F.E-7: Feedback system to allow feedback for volunteers from the client. </br>
+F.E-8: The volunteer time sheet limits the amount of time a volunteer spends out to 30% of the original and then updates the volunteer list with the exclusions.
 
 #### 2.3. Assumptions and Dependencies
 
