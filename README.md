@@ -19,9 +19,9 @@ The success metric for the volunteer management system is that the system can fo
 The clients are needing help with day-to-day routines. or they are just looking for someone to hang out with. There has been a steady decrease in volunteering to aid the clients in recent years and we are trying to fix that gap by building this management software. We are currently seeing that due to the extended wait times for people to volunteer some of the clients go without aid for quite a while. Although we are not directly involved in the police checks we are aware that the government is building a system to streamline this process which will aid us in the long run. We will be working closely with the downtown area and businesses to develop an endorsement plan to get people to sign up through a rewards system. This will allow us to pick up new volunteers quickly and effectively.
 
 #### 1.5. Business Risks
-RI-1: Too few employees managing the management system, which can cause stress on the employees as well as make the volunteer management system vulnerable to glitches and hacks. (Impact = 6)</br>
-RI-2: The clients may not use or own an electronic device, reducing the number of volunteer cases in the city. (Impact = 8) </br>
-RI-3: Overloading of cases on the volunteer management system could cause many volunteer cases to be missed, lowering the use of the management system. (Impact = 9)
+**RI-1**: Too few employees managing the management system, which can cause stress on the employees as well as make the volunteer management system vulnerable to glitches and hacks. (Impact = 6)</br>
+**RI-2**: The clients may not use or own an electronic device, reducing the number of volunteer cases in the city. (Impact = 8) </br>
+**RI-3**: Overloading of cases on the volunteer management system could cause many volunteer cases to be missed, lowering the use of the management system. (Impact = 9)
 
 ### 2. Vision of the Solution
 
@@ -39,20 +39,29 @@ RI-3: Overloading of cases on the volunteer management system could cause many v
 **F.E-8**: The volunteer time sheet limits the amount of time a volunteer spends out to 30% of the original and then updates the volunteer list with the exclusions.
 
 #### 2.3. Assumptions and Dependencies
+**A1.1**: We are assuming that the background check system to reduce the time it takes for background checks will be done in the few months that were stated, meaning that it will be done when we are ready to roll out version 1.0 of the management software. </br>
+**A2.1**: We are assuming that this program will reduce the crime rate in the downtown area leading to an increase in sales and visitation to the downtown core. </br>
+**D1.1**: We are dependent on the speed of the rollout for the police background check improvement. Without it, we will be stuck to some timelines that we cannot improve on quickly.
 
 ### 3. Scope and Limitations
 
 #### 3.1. Scope of Initial Release
+Within the initial release of the volunteer management system, the system will allow users to interact with the system by registering either as a client or a volunteer. Volunteers will be able to register for cases involving seniors. The system will save and keep the information about the user. User information will be sent to the background check system, which will check the credentials of clients and volunteers. Both the management system and background check system will send information through a sub-automated system. The system will have a predictive management system that tracks cases that are from seven days from the current date. In addition, the system will be able to increase the number of volunteers by making a system that can get back to the user about their credentials, allowing them to start volunteering.This will reduce the number of last-minute volunteer shortages and allow management to get the volunteer record for each client promptly.
 
 #### 3.2. Scope of Subsequent Releases
+With later releases over time, the volunteer management system's major features will be able to provide other volunteering cases such as for young elementary school students. This will offer additional teaching and coaching for students who need more dedicated hours due to the limited capacity of teachers. The system would need to provide a way to provide additional training and coaching for special cases as well as ensure that volunteers have the minimum educational skills.
 
 #### 3.3. Limitations and Exclusions
+**LI-1**: Management will not be able to directly connect with a user who is trying to become a volunteer through the system itself. Management must connect with users through email or phone numbers. </br>
+**LI-2**: The volunteer management system shall be used only for volunteering for clients who require assistance.
 
 ### 4. Business Context
 
 #### 4.1. Stakeholder Profiles
+(table needs to be added)
 
 #### 4.2. Project Priorities
+(table needs to be added)
 
 #### 4.3. Operating Environment
-
+The environment that our system lives in will be as far as a single city to start however if the system works superbly then we could expand to a wider range and this will affect our availability. Our system will allow the users to access the system with an internet connection 24/7 for signup and requests. Data is generated in user reports for the volunteers as well as for the clients. This data is generated only as far as a city length across. The only data that should be combined from different locations is the data from the police background checks and our servers to keep them up to date. Effectively making sure that when a background check runs out that a new appeal is placed to receive one and that our records are up to date. Continuous access to the system is a crucial feature for our system so that we know that the people needing help are receiving the help they have requested. There will need to be protocols set up for protecting the data of both the volunteers and the clients of the system. There will need to be security measures taken that allow for partial info to be released when a volunteer is sent to a location to help. As for access to the site, if you are registering as a client you will need to provide specific login credentials every time you log in to stop someone from abusing the system. As for volunteers the same login credentials will also be provided as well as a police background check will occur for us to know that you are a safe person to be sent to help these people.
