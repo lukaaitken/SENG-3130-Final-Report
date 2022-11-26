@@ -19,7 +19,7 @@ The clients are needing help with day-to-day routines. or they are just looking 
 
 #### 1.5. Business Risks
 RI-1: Too few employees managing the management system, which can cause stress on the employees as well as make the volunteer management system vulnerable to glitches and hacks. (Impact = 6)</br>
-RI-2: The clients may not use or own an electronic device, reducing the number of volunteer cases in the city. (Impact = 8)
+RI-2: The clients may not use or own an electronic device, reducing the number of volunteer cases in the city. (Impact = 8) </br>
 RI-3: Overloading of cases on the volunteer management system could cause many volunteer cases to be missed, lowering the use of the management system. (Impact = 9)
 
 ### 2. Vision of the Solution
