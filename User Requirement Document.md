@@ -33,34 +33,79 @@ From the previous report on the vision and scope document, one of the lessons th
 
 #### 1.4. Use Cases
 **UC-1:** Create new Volunteer: Volunteer, System administrators
-* Volunteer joins the system
-* System administrators sends it to the background check system
-</br>
+- Volunteer joins the system
+- System administrators sends it to the background check system
+
 **UC-2:** Approve new Volunteer: Background Check System, System administrators
-* System credential check looks over volunteer info
-* System administrators receives info on volunteer
+- System credential check looks over volunteer info
+- System administrators receives info on volunteer
+
 **UC-3:** Update Volunteer: Volunteer, System administrators
-* Volunteer changes account info about them
-* System administrators allows the update
+- Volunteer changes account info about them
+- System administrators allows the update
+
 **UC-4:** Delete Volunteer: Volunteer, System administrators
-* Volunteer cancels volunteer system
-* System administrators deletes volunteer account
+- Volunteer cancels volunteer system
+- System administrators deletes volunteer account
+
 **UC-5:** View Volunteer: Senior, Volunteer, System administrators
-* Volunteer can view their own info
-* System administrators can view info on volunteer
-* Senior can view info on Volunteer
+- Volunteer can view their own info
+- System administrators can view info on volunteer
+- Senior can view info on Volunteer
+
 **UC-6:** Generate Daily Report: System administrators, Mayor/Staff members
-* System administrators and mayor/staff members receive daily report on system
+- System administrators and mayor/staff members receive daily report on system
+
 **UC-7:** Request Volunteer: Senior
-* Senior request volunteer aid
+- Senior request volunteer aid
+
 **UC-8:** Accept Volunteer Request: Volunteer, Senior
-* Volunteer accepts volunteer request from senior
+- Volunteer accepts volunteer request from senior
 
 #### 1.5 Use Case Diagram
 
 ### 2. Fully Dressed Use Cases
 #### 2.1. UC-1: Create New Volunteer
 
+| ID & Name | UC-1 : Create New Volunteer |
+| --- | --- |
+| `Actor` | Volunteer: Registers to system, System Administrator: Add user to system|
+| `Scope` | Volunteer Management System|
+| `Level` | User becomes volunteer|
+| `Stakeholders and Interests` | Volunteer: To help community and to gain volunteer experience </br> System Administrator: Easier to add volunteers </br> Elders: To get help from volunteers easier|
+| `Precondition` | Volunteer is identified and authenticated|
+| `Postcondition` | Volunteer register is complete, Volunteer information is recorded|
+| `Main Success Scenario` | <li>Volunteer accesses the register section</li><li>Volunteer adds information<li>Information goes to administration and sent to background check system</li><li>Information comes back from background check system with confirmation</li><li>Volunteer is registered</li> |
+| `Extensions` | <li>System signals errors and rejects registration</li><li>Volunteer entered incorrect information</li><li>Volunteer entered no information in required sections</li>|
+| `Special Requirements` | The system must process and send data quickly|
+| `Frequency Of Use` | All day|
+
 #### 2.2. UC-2: Approve New Volunteer
 
+| ID & Name | UC-2 : Approve Volunteer |
+| --- | --- |
+| `Actor` | Background check system: Checks the volunteer information, Volunteer: Registers as a volunteer, System Administrator: To accept or deny new volunteers|
+| `Scope` | Volunteer management system and Background check system|
+| `Level` | Approves new volunteers joining the system|
+| `Stakeholders and Interests` | Background check system: Approve volunteers with ease and quickly </br> Volunteer: To help community quickly </br> System administrator: To accept or deny new users with ease|
+| `Precondition` | Volunteer is identified and authenticated|
+| `Postcondition` | System administrator approves new user|
+| `Main Success Scenario` | <li>System administrator sends information to the background check system</li><li>Background check system sends information back to system administrator about the volunteer</li><li>System administrator approves volunteer registration</li><li>Information comes back from background check system with confirmation</li><li>Volunteer is registered</li> |
+| `Extensions` | <li>Background check system sends information with unpleasant information</li><li>System administration denies volunteer access</li>|
+| `Special Requirements` | <li>Should check for criminal records</li><li>Should check for education</li>|
+| `Frequency Of Use` | Whenever the system administrator sends information to the background check system|
+
 #### 2.3. UC-3: Generate Daily Report
+
+| ID & Name | UC-6 : Generate Daily Report |
+| --- | --- |
+| `Actor` | System administrator: Generates Daily report, Mayor/Staff: Receives daily report|
+| `Scope` | Volunteer Management system|
+| `Level` | Generate daily reports successfully|
+| `Stakeholders and Interests` | System administration: To generate daily reports quickly</br> Mayor/Staff: Receive daily reports without any issues|
+| `Precondition` | Daily report is authenticated|
+| `Postcondition` | Daily report is generated successfully and sent to Mayor/Staff|
+| `Main Success Scenario` | <li>System administration generates daily report on the system</li><li>Daily report is created</li><li>System administration sends report to Mayor/staff</li><li>Mayor/staff receive daily report on system</li>
+| `Extensions` | <li>Generating report is unsuccessful: Error in system, Overloaded system due to too many users</li><li>Mayor/Staff do not receive report</li>|
+| `Special Requirements` | Should contain results including total number of volunteers that registers each day, total number of volunteers on the system and all senior cases that have or have not been completed.|
+| `Frequency Of Use` | Should be sent once everyday|
