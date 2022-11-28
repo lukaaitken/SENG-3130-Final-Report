@@ -35,6 +35,7 @@ From the previous report on the vision and scope document, one of the lessons th
 **UC-1:** Create new Volunteer: Volunteer, System administrators
 * Volunteer joins the system
 * System administrators sends it to the background check system
+</br>
 **UC-2:** Approve new Volunteer: Background Check System, System administrators
 * System credential check looks over volunteer info
 * System administrators receives info on volunteer
