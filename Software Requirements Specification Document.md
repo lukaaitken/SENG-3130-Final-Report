@@ -198,6 +198,7 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 | Service Location | Start time and end time of service, and description of location | alphanumeric | 100| Commas and hyphens are allowed|
 
 <div align="center"> Table A-2: GFD Technique of Benefit, Penalty & Value </div></br>
+
 | Relative Weights | 2 | 1 |  |  |
 | --- | --- | --- | --- | --- |
 |     | Benefit | Penalty | Total Value | Value % |
