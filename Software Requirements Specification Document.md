@@ -188,8 +188,6 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 
 <div align="center"> Figure A-1: Data Model </div> </br>
 
-<div align="center"> Table A-1: Data Dictionary </div></br>
-
 | Data Element | Description | Data Type/Composition | Length | Values |
 | --- | --- | --- | --- | --- |
 | Volunteer Service Description | Description of the volunteer service required| Senior name </br> +phone number </br> +service location| | |
@@ -197,7 +195,7 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 | Volunteer ID | ID number of the volunteer when applying for requests| integer| 10| |
 | Service Location | Start time and end time of service, and description of location | alphanumeric | 100| Commas and hyphens are allowed|
 
-<div align="center"> Table A-2: GFD Technique of Benefit, Penalty & Value </div></br>
+<div align="center"> Table A-1: Data Dictionary </div></br>
 
 | Relative Weights | 2 | 1 |  |  |
 | --- | --- | --- | --- | --- |
@@ -210,6 +208,19 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 |Modify Volunteer Date| 2 | 3 | 7 | 11.5% |
 |Total | 20| 21 | 61 | 100% |
 
+<div align="center"> Table A-2: GFD Technique of Benefit, Penalty & Value </div></br>
+
+| Relative Weights | 1 |  | 0.5 |  | |
+| --- | --- | --- | --- | --- | ---|
+|     | Risk | Risk % | Cost | Cost % | Priority|
+|Create Senior-Peer volunteer | 5 | 29.4% | 4 | 20.0% | 0.62 |
+|Create Student-peer Volunteer| 5 | 29.4% | 4 | 20.0% | 0.12 |
+|Assign Volunteer | 1 | 5.9% | 4 | 20.0% | 1.55 |
+|Generate Daily Report | 3 | 17.6% | 4 | 20.0% | 0.65|
+|Record Volunteer progress report| 2 | 11.8% | 3 | 15.0%| 0.85 |
+|Modify Volunteer Date| 1 | 5.9% | 1 | 5.0% | 1.37 |
+|Total | 17 | 100% | 20 | 100% | |
+<div align="center"> Table A-3: GFD Technique of Risk, Cost & Priority </div></br>
 
 ### Appendix C: Validation
 When validating each requirement, we checked to see if the description matches with the requirements of each actor and made sure that each requirement was written in a clear and concise way. By doing so, reading each requirement either as an actor or customer will make it much easier to read each requirement, as well as an easier understanding of what each requirement talks about. Additionally, it will make it much easier for the programmers to implement each requirement given.
