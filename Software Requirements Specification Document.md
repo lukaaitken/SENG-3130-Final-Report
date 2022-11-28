@@ -190,12 +190,14 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 
 </br>
 <div align="left"> Table A-1: Data Dictionary </div></br>
+
 | Data Element | Description | Data Type/Composition | Length | Values |
 | --- | --- | --- | --- | --- |
 | Volunteer Service Description | Description of the volunteer service required| Senior name </br> +phone number </br> +service location| | |
 | Volunteer Account Description | Volunteer information that shows details about the volunteer| Volunteer name</br> +phone number</br> +services</br> +list of experiences and engagements</br> +list of interests| | |
 | Volunteer ID | ID number of the volunteer when applying for requests| integer| 10| |
 | Service Location | Start time and end time of service, and description of location | alphanumeric | 100| Commas and hyphens are allowed|
+
 </br>
 <div align="left"> Table A-2: GFD Technique of Benefit, Penalty & Value </div></br>
 
@@ -209,6 +211,7 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 |Record Volunteer progress report| 4 | 2 | 10 | 16.4%|
 |Modify Volunteer Date| 2 | 3 | 7 | 11.5% |
 |Total | 20| 21 | 61 | 100% |
+
 </br>
 <div align="left"> Table A-3: GFD Technique of Risk, Cost & Priority </div></br>
 
