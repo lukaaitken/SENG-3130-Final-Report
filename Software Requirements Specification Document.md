@@ -188,15 +188,26 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 
 <div align="center"> Figure A-1: Data Model </div> </br>
 
-<div align="center"> Table A-1: Data Dictionary </div>
+<div align="center"> Table A-1: Data Dictionary </div></br>
+
 | Data Element | Description | Data Type/Composition | Length | Values |
-| --- | --- | --- | --- | ---|
-| Volunteer Service Description | Description of the volunteer service required | Senior name</br> +phone number </br> +service location |  | | 
+| --- | --- | --- | --- | --- |
+| Volunteer Service Description | Description of the volunteer service required| Senior name </br> +phone number </br> +service location| | |
+| Volunteer Account Description | Volunteer information that shows details about the volunteer| Volunteer name</br> +phone number</br> +services</br> +list of experiences and engagements</br> +list of interests| | |
+| Volunteer ID | ID number of the volunteer when applying for requests| integer| 10| |
+| Service Location | Start time and end time of service, and description of location | alphanumeric | 100| Commas and hyphens are allowed|
 
-
-
-
-
+<div align="center"> Table A-2: GFD Technique of Benefit, Penalty & Value </div></br>
+| Relative Weights | 2 | 1 |  |  |
+| --- | --- | --- | --- | --- |
+|     | Benefit | Penalty | Total Value | Value % |
+|Create Senior-Peer volunteer | 5 | 5 | 15 | 24.6% |
+|Create Student-peer Volunteer| 1 | 1 | 3 | 4.9% |
+|Assign Volunteer | 5 | 5 | 15 | 24.6% |
+|Generate Daily Report | 3 | 5 | 11 | 18.0% |
+|Record Volunteer progress report| 4 | 2 | 10 | 16.4%|
+|Modify Volunteer Date| 2 | 3 | 7 | 11.5% |
+|Total | 20| 21 | 61 | 100% |
 
 
 ### Appendix C: Validation
