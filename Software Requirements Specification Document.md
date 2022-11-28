@@ -186,7 +186,18 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 
 ### Appendix B: Analysis Models
 
-<div align="center"> Figure A-1: Data Model </div>
+<div align="center"> Figure A-1: Data Model </div> </br>
+
+<div align="center"> Table A-1: Data Dictionary </div>
+| Data Element | Description | Data Type/Composition | Length | Values |
+| --- | --- | --- | --- | ---|
+| Volunteer Service Description | Description of the volunteer service required | Senior name</br> +phone number </br> +service location |  | | 
+
+
+
+
+
+
 
 ### Appendix C: Validation
 When validating each requirement, we checked to see if the description matches with the requirements of each actor and made sure that each requirement was written in a clear and concise way. By doing so, reading each requirement either as an actor or customer will make it much easier to read each requirement, as well as an easier understanding of what each requirement talks about. Additionally, it will make it much easier for the programmers to implement each requirement given.
