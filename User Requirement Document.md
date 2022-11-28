@@ -11,7 +11,14 @@ From the previous report on the vision and scope document, one of the lessons th
 | --- | --- |
 | `Volunteers: Direct and Favoured` | Should enter their name, phone number, address and extra details to the system to be reviewed by the administrators.|
 | `Seniors/Elders: Direct and Favoured` | Should report their needs for social support. |
-| `System Administrators: Direct and Favoured` | Receive daily reports with the forecasted number of cases during the next week.</br> For example, I can reassign volunteers to higher severe cases. I should also see any new requests from the School Administrators who request volunteers to teach the students. </br> Send volunteer information to the background check system after the system administrator product champion has looked over the new volunteers. </br> Should be able to verify the educational certificates of volunteers who are required to teach kids.|
+| `System Administrators: Direct and Favoured` | Receive daily reports with the forecasted number of cases during the next week. </br> For example, I can reassign volunteers to higher severe cases. I should also see any new requests from the School Administrators who request volunteers to teach the students. </br> Send volunteer information to the background check system after the system administrator product champion has looked over the new volunteers. </br> Should be able to verify the educational certificates of volunteers who are required to teach kids.|
+| `Mayor/Staff: Direct and Disfavoured` | Receive information on seniors and create profiles for the seniors on the system.|
+| `Background Check System: Indirect and Disfavoured` | Should process 1K background checks per hour. The problem is that the system process includes a manual step to get approval from the police officers, so it only works during working hours.|
+| `Sponsors: Indirect and Ignored` | Fund the volunteer management system in exchange for volunteer help. |
+| `Subject Matter Expert: Indirect and Favoured` | Give advice on the subject matter forthe volunteer management system.|
+| `Senior People Champion: Indirect and Favoured` | Should gather senior’s information over the phone and send it to the staff.|
+| `System Administrator Product Champion: Indirect and Favoured` | Check over newly registered volunteers and do initial screening. If the profile looks good, the administrators are able to send the information of the volunteers to the background check system. |
+
 #### 1.3. Actors
 
 #### 1.4. Use Cases
