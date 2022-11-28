@@ -37,6 +37,14 @@ The clients are needing help with day-to-day routines. or they are just looking 
 **F.E-7**: Feedback system to allow feedback for volunteers from the client. </br>
 **F.E-8**: The volunteer time sheet limits the amount of time a volunteer spends out to 30% of the original and then updates the volunteer list with the exclusions.
 
+<p align=center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1920px-Tic_tac_toe.svg.png" alt="drawing" width="200"/></p>
+
+
+
+
+
+
 #### 2.3. Assumptions and Dependencies
 **A1.1**: We are assuming that the background check system to reduce the time it takes for background checks will be done in the few months that were stated, meaning that it will be done when we are ready to roll out version 1.0 of the management software. </br>
 **A2.1**: We are assuming that this program will reduce the crime rate in the downtown area leading to an increase in sales and visitation to the downtown core. </br>
