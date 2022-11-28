@@ -20,8 +20,40 @@ From the previous report on the vision and scope document, one of the lessons th
 | `System Administrator Product Champion: Indirect and Favoured` | Check over newly registered volunteers and do initial screening. If the profile looks good, the administrators are able to send the information of the volunteers to the background check system. |
 
 #### 1.3. Actors
+| Actors | Actor Description |
+| --- | --- |
+| `Volunteers (Primary)` | To provide services for seniors.|
+| `Seniors/Elders (Primary) ` | To receive services from volunteers.|
+| `Mayor/Staff Members (Primary)` | Running the system.|
+| `System Administrators (Supporting)` | To approve and accept volunteers into the system.|
+| `Background Check System (Supporting)` | To review volunteer information.|
+| `Sponsors (Offstage)` | To support the system.|
+| `Product Champions (Supporting)` | To provide advice for the system.|
+| `Subject Matter expert (Supporting)` | To provide advice on how to engage users and to make the system easy to use|
 
 #### 1.4. Use Cases
+**UC-1:** Create new Volunteer: Volunteer, System administrators
+* Volunteer joins the system
+* System administrators sends it to the background check system
+**UC-2:** Approve new Volunteer: Background Check System, System administrators
+* System credential check looks over volunteer info
+* System administrators receives info on volunteer
+**UC-3:** Update Volunteer: Volunteer, System administrators
+* Volunteer changes account info about them
+* System administrators allows the update
+**UC-4:** Delete Volunteer: Volunteer, System administrators
+* Volunteer cancels volunteer system
+* System administrators deletes volunteer account
+**UC-5:** View Volunteer: Senior, Volunteer, System administrators
+* Volunteer can view their own info
+* System administrators can view info on volunteer
+* Senior can view info on Volunteer
+**UC-6:** Generate Daily Report: System administrators, Mayor/Staff members
+* System administrators and mayor/staff members receive daily report on system
+**UC-7:** Request Volunteer: Senior
+* Senior request volunteer aid
+**UC-8:** Accept Volunteer Request: Volunteer, Senior
+* Volunteer accepts volunteer request from senior
 
 #### 1.5 Use Case Diagram
 
