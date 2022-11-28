@@ -57,10 +57,21 @@ With later releases over time, the volunteer management system's major features 
 ### 4. Business Context
 
 #### 4.1. Stakeholder Profiles
-(table needs to be added)
+| **Stakeholder** | **Major Value** | **Attitudes** | **Major Interests** | **Constraints** | 
+| --- | --- | --- | --- | --- |
+| `Volunteers` | Better volunteer experience| Positive about quicker registration system but may not be just interested in senior volunteer work| Faster and easier registering system| Minimal knowledge; training|
+| `Clients (Seniors)` | More volunteers available| Receptive but positive| Easy to use system for older users|Some may be technology illiterate|
+| `Sponsors` | Increase in volunteer activity| High enthusiasm if system is improved| Increase activity downtown/local shops; Decrease in criminal activity| None identified|
+| `Mayor` | Improved volunteer management system; Improved volunteer activity|Concern with the number of volunteer shortages due to number of volunteer cases| System that decreases the number of volunteer shortages per year| Volunteer management system that only deals with clients|
 
 #### 4.2. Project Priorities
-(table needs to be added)
+| **Dimension** | **Driver (state objective)** | **Constraint (state limits)** | **Degree of Freedom (state allowable range)** | 
+| --- | --- | --- | --- |
+| `Schedule` | Release 1.0 to be available by the time of the new background check system release| | |
+| `Features ` | Registration Background check Help request Predictive tracking Assignment system Feedback system Volunteer time sheet| Main features for release 1.0 to be fully operational| 80-90% of high priority features must be included in release 1.0|
+| `Quality` | | | 80-90% of user acceptance tests must pass for release 1.0|
+| `Staff` | N/A | N/A | N/A |
+| `Cost` | budget N/A | budget N/A | budget N/A |
 
 #### 4.3. Operating Environment
 The environment that our system lives in will be as far as a single city to start however if the system works superbly then we could expand to a wider range and this will affect our availability. Our system will allow the users to access the system with an internet connection 24/7 for signup and requests. Data is generated in user reports for the volunteers as well as for the clients. This data is generated only as far as a city length across. The only data that should be combined from different locations is the data from the police background checks and our servers to keep them up to date. Effectively making sure that when a background check runs out that a new appeal is placed to receive one and that our records are up to date. Continuous access to the system is a crucial feature for our system so that we know that the people needing help are receiving the help they have requested. There will need to be protocols set up for protecting the data of both the volunteers and the clients of the system. There will need to be security measures taken that allow for partial info to be released when a volunteer is sent to a location to help. As for access to the site, if you are registering as a client you will need to provide specific login credentials every time you log in to stop someone from abusing the system. As for volunteers the same login credentials will also be provided as well as a police background check will occur for us to know that you are a safe person to be sent to help these people.
