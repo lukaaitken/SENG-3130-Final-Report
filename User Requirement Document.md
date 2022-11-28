@@ -11,8 +11,7 @@ From the previous report on the vision and scope document, one of the lessons th
 | --- | --- |
 | `Volunteers: Direct and Favoured` | Should enter their name, phone number, address and extra details to the system to be reviewed by the administrators.|
 | `Seniors/Elders: Direct and Favoured` | Should report their needs for social support. |
-| `System Administrators: Direct and Favoured` | Receive daily reports with the forecasted number of cases during the next week.</br> For example, I can reassign volunteers to higher severe cases. I should also see any new requests from the School Administrators who request volunteers to teach the students. </br> Send volunteer information to the background check system after the system administrator product champion has looked over the new volunteers. </br> Should be able to verify the educational certificates of volunteers who are required to teach kids.
- |
+| `System Administrators: Direct and Favoured` | Receive daily reports with the forecasted number of cases during the next week.</br> For example, I can reassign volunteers to higher severe cases. I should also see any new requests from the School Administrators who request volunteers to teach the students. </br> Send volunteer information to the background check system after the system administrator product champion has looked over the new volunteers. </br> Should be able to verify the educational certificates of volunteers who are required to teach kids.|
 #### 1.3. Actors
 
 #### 1.4. Use Cases
