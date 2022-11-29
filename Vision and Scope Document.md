@@ -40,11 +40,7 @@ The clients are needing help with day-to-day routines. or they are just looking 
 <p align=center>
 <img src="https://github.com/lukaaitken/SENG-3130---Final-Report/blob/main/Figures/PartialFigureTree.JPG?raw=true" alt="Figure Tree" width="600"/></p>
 
-
-
-
-
-
+<div align="center"> Figure 1: Partial feature tree for the Volunteer Management System.</div>
 
 #### 2.3. Assumptions and Dependencies
 **A1.1**: We are assuming that the background check system to reduce the time it takes for background checks will be done in the few months that were stated, meaning that it will be done when we are ready to roll out version 1.0 of the management software. </br>
