@@ -30,9 +30,16 @@ The intended audience for this document is for the users using the system and st
 #### 2.1. Product Perspective
 Our Volunteer Management System is a standalone self contained system. The need for this system is brought about by the decline in volunteers within our community and the rising demand for said volunteers to help the elderly community.
 
+<p align=center>
+<img src="https://github.com/lukaaitken/SENG-3130---Final-Report/blob/main/Figures/ContextDiagram.JPG?raw=true" alt="Context Diagrm" width="600"/></p>
+
 <div align="center"> Figure 2-1: Context Diagram </div>
 
 #### 2.2. Product Functions
+
+<p align=center>
+<img src="https://github.com/lukaaitken/SENG-3130---Final-Report/blob/main/Figures/PartialFigureTree.JPG?raw=true" alt="Feature Tree" width="600"/></p>
+
 <div align="center"> Figure 2-2: Feature Tree </div>
 
 #### 2.3. User Classes and Characteristics
@@ -77,6 +84,11 @@ UI-1: The Volunteer Management system will have 4 main sections that include Set
 UI-2: The Volunteer Management system browse section will display recommended seniors that fit with the volunteer’s skills.</br>
 UI-3: Clicking on a Senior in the browse section will show all the details about the seniors as well as the service needed.</br>
 UI-4: Clicking on the personal information will show all the details about the volunteer and their experiences and skills.
+
+<p align=center>
+<img src="https://github.com/lukaaitken/SENG-3130---Final-Report/blob/main/Figures/UserInterface.JPG?raw=true" alt="User Interface" width="600"/></p>
+
+<div align="center"> Figure 3-1: User Interface</div>
 
 #### 3.2. Hardware Interfaces
 HI-1: The Volunteer Management system will be supported on android devices and IOS devices.
@@ -186,6 +198,9 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 
 ### Appendix B: Analysis Models
 
+<p align=center>
+<img src="https://github.com/lukaaitken/SENG-3130---Final-Report/blob/main/Figures/DataModel.JPG?raw=true" alt="Data Model" width="600"/></p>
+
 <div align="center"> Figure A-1: Data Model </div> </br>
 
 </br>
@@ -225,6 +240,11 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 |Record Volunteer progress report| 2 | 11.8% | 3 | 15.0%| 0.85 |
 |Modify Volunteer Date| 1 | 5.9% | 1 | 5.0% | 1.37 |
 |Total | 17 | 100% | 20 | 100% | |
+
+
+<p align=left>
+<img src="https://github.com/lukaaitken/SENG-3130---Final-Report/blob/main/Figures/QACustomer.JPG?raw=true" alt="Data Model" width="600"/></p>
+
 
 ### Appendix C: Validation
 When validating each requirement, we checked to see if the description matches with the requirements of each actor and made sure that each requirement was written in a clear and concise way. By doing so, reading each requirement either as an actor or customer will make it much easier to read each requirement, as well as an easier understanding of what each requirement talks about. Additionally, it will make it much easier for the programmers to implement each requirement given.
