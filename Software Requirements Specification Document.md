@@ -204,7 +204,8 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 <div align="center"> Figure A-1: Data Model </div> </br>
 
 </br>
-<div align="left"> Table A-1: Data Dictionary </div></br>
+
+<div align="Center"> Table A-1: Data Dictionary </div></br>
 
 | Data Element | Description | Data Type/Composition | Length | Values |
 | --- | --- | --- | --- | --- |
@@ -214,7 +215,10 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 | Service Location | Start time and end time of service, and description of location | alphanumeric | 100| Commas and hyphens are allowed|
 
 </br>
-<div align="left"> Table A-2: GFD Technique of Benefit, Penalty & Value </div></br>
+<div align="center"> Table A-2: GFD Technique of Benefit, Penalty & Value </div></br>
+
+
+<div align="center">
 
 | Relative Weights | 2 | 1 |  |  |
 | --- | --- | --- | --- | --- |
@@ -226,10 +230,14 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 |Record Volunteer progress report| 4 | 2 | 10 | 16.4%|
 |Modify Volunteer Date| 2 | 3 | 7 | 11.5% |
 |Total | 20| 21 | 61 | 100% |
+ 
+ </div>
 
 </br>
-<div align="left"> Table A-3: GFD Technique of Risk, Cost & Priority </div></br>
+<div align="center"> Table A-3: GFD Technique of Risk, Cost & Priority </div></br>
 
+<div align="center">
+ 
 | Relative Weights | 1 |  | 0.5 |  | |
 | --- | --- | --- | --- | --- | ---|
 |     | Risk | Risk % | Cost | Cost % | Priority|
@@ -240,9 +248,12 @@ LR-2: The Volunteer Management system should work with the Background Check syst
 |Record Volunteer progress report| 2 | 11.8% | 3 | 15.0%| 0.85 |
 |Modify Volunteer Date| 1 | 5.9% | 1 | 5.0% | 1.37 |
 |Total | 17 | 100% | 20 | 100% | |
+ 
+</div>
 
+</br>
 
-<p align=left>
+<p align=center>
 <img src="https://github.com/lukaaitken/SENG-3130---Final-Report/blob/main/Figures/QACustomer.JPG?raw=true" alt="Data Model" width="600"/></p>
 
 
