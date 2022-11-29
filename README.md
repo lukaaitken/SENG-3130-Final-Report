@@ -8,4 +8,4 @@ Here are the following Documents:
 
 * [User Requirement](https://github.com/lukaaitken/SENG-3130-Final-Report/blob/main/User%20Requirement%20Document.md)
 
-* [Software Requirements Specification](https://github.com/lukaaitken/SENG-3130-Final-Report/blob/main/Software%20Requirements%20Specification%20Document.md)
+* [Software Requirement Specification](https://github.com/lukaaitken/SENG-3130-Final-Report/blob/main/Software%20Requirements%20Specification%20Document.md)
