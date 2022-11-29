@@ -1,4 +1,6 @@
 # SENG-3130-Final-Report
+#### Thompson Rivers University
+#### By: Luka Aitken, Toma Aitken, Brandon Breithaupt
 
 Project for Requirement Specification of a Volunteer Management System (VMS).
 
