@@ -1,4 +1,4 @@
-# SENG-3130-Final-Report
+# SENG 3130 - Final Report - Volunteer Management System
 #### Thompson Rivers University
 #### By: Luka Aitken, Toma Aitken, Brandon Breithaupt
 
