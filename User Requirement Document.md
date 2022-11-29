@@ -1,6 +1,6 @@
 # SENG 3130 - Final Report - Volunteer Management System
 
-## Vision and Scope Document
+## User Requirement Document
  
 ### 1. User Requirements
 #### 1.1. Engineering Requirements & Practices
