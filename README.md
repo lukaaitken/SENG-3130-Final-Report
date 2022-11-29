@@ -4,7 +4,7 @@
 
 Project for Requirement Specification of a Volunteer Management System (VMS).
 
-Here are the following Documents:
+Following documents can be found by clicking the links below:
 
 * [Vision and Scope](https://github.com/lukaaitken/SENG-3130-Final-Report/blob/main/Vision%20and%20Scope%20Document.md)
 
