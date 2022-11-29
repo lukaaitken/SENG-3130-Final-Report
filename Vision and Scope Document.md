@@ -38,7 +38,8 @@ The clients are needing help with day-to-day routines. or they are just looking 
 **F.E-8**: The volunteer time sheet limits the amount of time a volunteer spends out to 30% of the original and then updates the volunteer list with the exclusions.
 
 <p align=center>
-<img src="[https://github.com/lukaaitken/SENG-3130---Final-Report/blob/main/Figures/PartialFigureTree.JPG?raw=true]" alt="drawing" width="200"/></p>
+<img src="https://github.com/lukaaitken/SENG-3130---Final-Report/blob/main/Figures/PartialFigureTree.JPG?raw=true" alt="Figure Tree" width="600"/></p>
+
 
 
 
