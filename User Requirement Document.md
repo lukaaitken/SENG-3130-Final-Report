@@ -69,12 +69,6 @@ From the previous report on the vision and scope document, one of the lessons th
 
 <div align="center"> Figure 1: Use Case Diagram.</div>
 
-
-
-
-
-
-
 ### 2. Fully Dressed Use Cases
 #### 2.1. UC-1: Create New Volunteer
 
